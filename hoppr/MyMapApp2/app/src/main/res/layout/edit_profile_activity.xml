@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#1aa79c"
+        android:text="EDIT PROFILE"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/available_hopprs_text"
+        android:textColor="#ffffff"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:text="FIRST NAME"
+            android:textSize="15sp"
+            android:textColor="#444"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="left"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:id="@+id/first_name"
+            android:paddingLeft="20dp"
+            android:background="#fff"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="left"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:text="LAST NAME"
+            android:textSize="15sp"
+            android:textColor="#444"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="left"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:paddingLeft="20dp"
+            android:background="#fff"
+            android:textSize="15sp"
+            android:id="@+id/last_name"
+            android:textColor="#000"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="left"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:text="EMAIL"
+            android:textSize="15sp"
+            android:textColor="#444"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="left"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:paddingLeft="20dp"
+            android:background="#fff"
+            android:textSize="15sp"
+            android:id="@+id/email_edit"
+            android:textColor="#000"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="left"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="#1aa79c"
+            android:text="Save Changes"
+            android:textColor="#fff"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_height="wrap_content"
+            android:onClick="saveChanges"
+            android:layout_gravity="bottom" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="#1aa79c"
+            android:text="Cancel"
+            android:textColor="#fff"
+            android:onClick="cancelChanges"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:background="#fff"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#075e54"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:text="Select Preference"
+        android:gravity="left"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Both"
+            android:layout_weight="0.5"
+            android:saveEnabled="true"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A/C"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </RadioGroup>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0.5">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:background="#58595b"
+                android:textColor="#fff"
+                android:text="Confirm"
+                android:id="@+id/confirm_btn"
+                android:onClick="confirmClickListener"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:background="#58595b"
+                android:text="Cancel"
+                android:textColor="#fff"
+                android:onClick="onCancelClickListener"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancel_btn"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

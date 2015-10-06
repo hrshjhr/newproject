@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hoppr"
+            android:padding="25dp"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center|top"
+            android:gravity="center|top"
+            android:layout_weight="23"
+            android:textStyle="bold"
+            android:textSize="80sp"
+            android:textColor="#1aa79c"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="305dp"
+                android:layout_weight="0"
+                android:layout_gravity="bottom"
+                android:src="@drawable/buslogo"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="195dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:onClick="getSignUpActivity"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+            android:background="#1aa79c"
+            android:text="Sign Up"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:onClick="getLoginActivity"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:background="#1aa79c"
+            android:text="Log In"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

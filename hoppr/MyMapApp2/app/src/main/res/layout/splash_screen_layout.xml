@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hoppr"
+        android:padding="25dp"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center|top"
+        android:gravity="center|top"
+        android:layout_weight="23"
+        android:textStyle="bold"
+        android:textSize="80sp"
+        android:textColor="#1aa79c"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:layout_weight="0"
+            android:layout_gravity="bottom"
+            android:src="@drawable/buslogo"/>
+
+
+    </LinearLayout>
+    
+
+
+</LinearLayout>

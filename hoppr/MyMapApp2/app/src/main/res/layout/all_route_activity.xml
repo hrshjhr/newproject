@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#075e54"
+            android:text="All Routes"
+            android:textSize="20sp"
+            android:gravity="center|center_vertical"
+            android:id="@+id/available_hopprs_text"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            />
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="20dp"
+            android:scrollbars="none"
+            android:padding="10dp"
+            android:id="@+id/list_view_all_routes">
+
+        </ListView>
+
+
+</LinearLayout>

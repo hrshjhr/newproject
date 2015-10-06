@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1aa79c"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="backIconPress"
+            android:src="@drawable/ic_arrow_back_white_48dp"
+            android:layout_gravity="center|center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#1aa79c"
+                android:text="Hoppr Details"
+                android:textSize="25sp"
+                android:gravity="left|bottom"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#1aa79c"
+                android:text="Hoppr Details"
+                android:textSize="15sp"
+                android:gravity="left|top"
+                android:id="@+id/hoppr_confirmation_text"
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="Vehicle Details :"
+        android:textColor="#1aa79c"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:text="Vehicle Name : "
+        android:id="@+id/bus_name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bus_number"
+        android:textColor="#333"
+        android:text="Vehicle No :"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:text="Available Seats :"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/availalable_seats"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:id="@+id/startTime"
+        android:text="Start Time :"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="Ticket Details :"
+        android:textColor="#1aa79c"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333"
+            android:text="Number of Tickets :"
+            android:layout_marginLeft="15dp"
+
+            android:paddingBottom="5dp"
+            android:layout_marginRight="15dp" />
+
+        <Spinner
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_ticket_number"
+            android:layout_weight="0.10" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:text="Ticket Amount :"
+        android:id="@+id/ticket_amount"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#1aa79c"
+            android:onClick="busConfirmClickListener"
+            android:text="Confirm"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#1aa79c"
+        android:text="ABOUT"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/available_hopprs_text"
+        android:textColor="#ffffff"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="WE ARE HOPPR"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/back"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:gravity="left|center"
+            android:text="Rate Us At Google Play"
+            android:onClick="googlePlayLoader"
+            android:textSize="15sp"
+
+            android:background="@drawable/textlines"
+
+            android:padding="10dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textlines"
+            android:gravity="left|center"
+            android:text="Like Us At Facebook"
+            android:onClick="facebookIntentLoader"
+            android:textColor="#000"
+
+            android:textSize="15sp"
+            android:padding="10dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

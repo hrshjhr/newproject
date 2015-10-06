@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#1aa79c"
+        android:text="FAQ's"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/available_hopprs_text"
+        android:textColor="#ffffff"
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="What is Hoppr ?"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="#fff"
+                android:layout_marginTop="10dp"
+                android:text="Hoppr aims to disrupt the congested public transit space by aggregating smart transport solutions with the aid of mobile technology"
+                android:textSize="15sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="How to book a ride ?"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="#fff"
+                android:layout_marginTop="10dp"
+                android:text="Enter the Source and Destination, click on 'Book a Ride' button , which will give you the ride details on the next page. Once you confirm the ride, a boarding pass will be generated. That's it, you've booked the ride and you're ready to hop on. "
+                android:textSize="15sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="Where to board the vehicle ?"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="#fff"
+                android:layout_marginTop="10dp"
+                android:text="Once you confirm your booking, you will be guided to the hopSTOP, based on the source that you entered. You can track the vehicle, while it is on its way. The vehicle will stop at the hopSTOP. Get on board and enjoy your ride."
+                android:textSize="15sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="What is Hoppr Wallet ?"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="#fff"
+                android:layout_marginTop="10dp"
+                android:text="Hoppr Wallet is from where you pay for your rides. We have both cash and cashless features to make the use of the wallet very convenient. You can load your wallet either with Hoppr Recharge Cards (available on the vehicle) or with other payment gateways available. "
+                android:textSize="15sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="How many tickets can I book at a time?"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="#fff"
+                android:layout_marginTop="10dp"
+                android:text="You can book up to 5 tickets at a time."
+                android:textSize="15sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="Can I cancel my ride?"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="#fff"
+                android:layout_marginTop="10dp"
+                android:text="Yes. However, you will be charged with a cancellation fee of Rs. 5 and the rest of the booking amount will be loaded back to your Hoppr Wallet."
+                android:textSize="15sp"
+                android:gravity="left"
+                android:textColor="#000"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

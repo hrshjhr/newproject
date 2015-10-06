@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Hoppr</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="email_text_field">Email</string>
+    <string name="password_text_field">Password</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="login_btn">Login</string>
+    <string name="password_text">Password</string>
+    <string name="email_text">Email</string>
+    <string name="signup_btn">Sign Up</string>
+    <string name="enter_destination_string">Enter Destination</string>
+    <string name="find_bus_text">Find Your Hopper</string>
+    <string name="enter_source_string">Enter Source</string>
+    <string name="profile_tile">PROFILE</string>
+    <string name="payment_tile">PAYMENT</string>
+    <string name="history_tile">HISTORY</string>
+    <string name="help_tile">HELP</string>
+    <string name="about_tile">ABOUT</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="destination_hint_text">Enter Destination</string>
+    <string name="place_details">Place</string>
+    <string name="open_location_settings">Open Settings</string>
+    <string name="Cancel">Cancel</string>
+    <string name="gps_network_not_enabled">Location Not Avalable</string>
+
+    <string-array name="places_all_source">
+        <item>Enter Source</item>
+        <item>Rashbehari</item>
+        <item>Fortis</item>
+        <item>Triangular Park</item>
+        <item>Gariahat</item>
+        <item>Kasba</item>
+        <item>SS Roy Uddayan</item>
+        <item>Tribarna Sangha</item>
+        <item>Siemens</item>
+        <item>Ruby Crossing</item>
+        <item>Fortis / CIS</item>
+        <item>Rajiv Gandhi Institution</item>
+        <item>Science City</item>
+        <item>Bartaman Bhawan</item>
+        <item>Chingrighata</item>
+        <item>Nicco Park</item>
+        <item>Nalban</item>
+        <item>SDF</item>
+        <item>Sector V</item>
+    </string-array>
+
+    <string-array name="places_all_destination">
+        <item>Enter Destination</item>
+        <item>Rashbehari</item>
+        <item>Fortis</item>
+        <item>Triangular Park</item>
+        <item>Gariahat</item>
+        <item>Kasba</item>
+        <item>SS Roy Uddayan</item>
+        <item>Tribarna Sangha</item>
+        <item>Siemens</item>
+        <item>Ruby Crossing</item>
+        <item>Fortis / CIS</item>
+        <item>Rajiv Gandhi Institution</item>
+        <item>Science City</item>
+        <item>Bartaman Bhawan</item>
+        <item>Chingrighata</item>
+        <item>Nicco Park</item>
+        <item>Nalban</item>
+        <item>SDF</item>
+        <item>Sector V</item>
+
+    </string-array>
+
+    <string-array name="number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

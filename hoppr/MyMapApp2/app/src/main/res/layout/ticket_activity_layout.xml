@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1aa79c"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="onCancelClickHandler"
+            android:src="@drawable/ic_arrow_back_white_48dp"
+            android:layout_gravity="center|center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#1aa79c"
+                android:text="Way To Go"
+                android:textSize="25sp"
+                android:gravity="left|bottom"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#1aa79c"
+                android:text="Ticket Details"
+                android:textSize="15sp"
+                android:gravity="left|top"
+                android:id="@+id/hoppr_confirmation_text"
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:text="Ticket Id :"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="left"
+        android:id="@+id/textView5"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:text="Date :"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hoppr Number : 4087"
+        android:textSize="20sp"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="15dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Number of Passengers"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:id="@+id/textView4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Source"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/textView6"
+        android:textSize="20sp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Destination"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/textView7"
+        android:textSize="20sp"
+         />
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="#1aa79c"
+            android:text="Track"
+            android:layout_weight=".333333"
+            android:textColor="#fff"
+            android:onClick="trackBus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_gravity="bottom" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="#1aa79c"
+            android:text="Cancel"
+            android:onClick="onCancelClickHandler"
+            android:layout_weight=".333333"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_cancel"
+            android:layout_gravity="bottom" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="#1aa79c"
+            android:text="Report"
+            android:onClick="reportToUs"
+            android:layout_weight=".333333"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_report"
+            android:layout_gravity="bottom" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
